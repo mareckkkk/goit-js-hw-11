@@ -84,7 +84,7 @@ const renderCard = function (dataArr) {
         </a>
           <div class="info">
           
-          <div class="desription">
+          <div>
           <p class="info-item">
                ${item.likes} </p>
                <p>Likes</p>
@@ -93,7 +93,7 @@ const renderCard = function (dataArr) {
           
           <div>
             <p class="info-item">
-            ${item.views} </p>
+            ${item.views}</p>
             <p>Views</p>
             </div>
 

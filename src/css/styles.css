@@ -17,47 +17,36 @@ img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.info-item{
-padding-bottom: 5px;
+.info-item {
+    font-weight: bold;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-.section{
-padding-left: 10px;
-padding-top: 10px;
-padding-bottom: 10px;
-background-color: blue;
+.section {
+  margin: auto;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
 }
 
-.search-form input{
-    width: 10%;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 4px;
-    background-color: white;
+.search-form input {
+  width: 10%;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
   padding-left: 10px;
 }
 
-.submit{
-height: 18px;
+.submit {
+  height: 18px;
 }
 
-.first-row{
-    display: flex;
-    justify-content: space-between; 
-}
-
-.second-row{
-display: flex;
-    justify-content: space-between; 
-}
-
-.info{
-    display: flex;
+.info {
+  display: flex;
   gap: 30px;
-  
-}
-
-.desription{
-justify-content: center;
-align-items: center;
+  justify-content: center;
 }
