@@ -83,18 +83,33 @@ const renderCard = function (dataArr) {
         <img src="${item.webformatURL}" alt="${item.tags}" loading="lazy" />
         </a>
           <div class="info">
+          
+          <div class="desription">
+          <p class="info-item">
+               ${item.likes} </p>
+               <p>Likes</p>
+            
+          </div>
+          
+          <div>
             <p class="info-item">
-               <b>${item.likes}Likes</b>
-            </p>
+            ${item.views} </p>
+            <p>Views</p>
+            </div>
+
+            <div>
             <p class="info-item">
-               <b>${item.views}Views</b>
-            </p>
+              ${item.comments}</p>
+              <p> Comments</p>    
+</div>
+
+            <div>
             <p class="info-item">
-              <b>${item.comments}Comments</b>
-            </p>
-            <p class="info-item">
-              <b>${item.downloads}Downloads</b>
-            </p>
+              ${item.downloads} </p>
+              <p>Downloads</p>
+            
+            </div>
+
           </div>
         </div>`;
     })
